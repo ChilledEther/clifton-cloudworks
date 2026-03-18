@@ -20,3 +20,6 @@ Downgrading gems locally actively breaks the Cloudflare production deployment, w
 ## 2. Staging Branch & Deployments
 **Always target the `staging` branch for updates.** 
 Whether you are creating a new pull request to merge changes or directly editing files, your work should always go into `staging`. Cloudflare is configured to fully automate deployments from this branch, so all automated and agentic work must funnel through it.
+
+**CRITICAL: Keep Staging in Sync with Main.** 
+The `staging` branch must always be in sync with `main`. Whenever `main` is updated (e.g., following a PR merge), those changes must be explicitly and immediately pushed back to `staging` so the automated deployment pipeline continuously tracks the true repository state.
