@@ -1,8 +1,9 @@
 /* Clifton Cloudworks Theme - Dark Green/Olive Techno Style */
 
 /* Global Colors - Updates CSS Variables used by Beautiful Jekyll */
+.static-page-background { display: none !important; } /* Hide old wrapper to let body gradient show */
 :root {
-  --page-col: #1a201c; /* Darker green-black base */
+  --page-col: #040d12; /* Deep Cloud Teal base */
   --text-col: #ececec;
   --link-col: #70966a; /* Olive Green */
   --hover-col: #a4c2a0; /* Sage Green */
@@ -19,7 +20,9 @@
 
 /* Base Body Styles */
 body {
-  background-color: var(--page-col);
+  background-color: var(--page-col) !important;
+  background-image: radial-gradient(circle at 60% 40%, #123533 0%, #081e22 50%, #040d12 100%) !important;
+  background-attachment: fixed !important;
   color: var(--text-col);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   min-height: 100vh;
@@ -247,7 +250,9 @@ a {
 
 /* Base Body Styles */
 body {
-  background-color: var(--page-col);
+  background-color: var(--page-col) !important;
+  background-image: radial-gradient(circle at 60% 40%, #123533 0%, #081e22 50%, #040d12 100%) !important;
+  background-attachment: fixed !important;
   color: var(--text-col);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   min-height: 100vh;

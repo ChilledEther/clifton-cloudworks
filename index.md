@@ -3,18 +3,10 @@ layout: base
 title: Clifton Cloudworks
 subtitle: Offering software delivery and cloud engineering services
 share-description: Clifton Cloudworks is a Bristol-based consultancy specializing in Cloud Engineering, Kubernetes, and GitOps. We help startups and SMEs build scalable, cloud-native software delivery platforms.
-js:
-  - "/assets/js/tech-background.js"
 ---
 
 <style>
-<style>
   /* Home Page Specific Overrides */
-  /* We need transparency to see the canvas background */
-  body {
-    background-color: transparent !important;
-    /* overflow: hidden !important; Removed to allow scrolling on smaller screens */
-  }
 
   /* Centering wrapper specific to home content */
   .home-content-wrapper {
